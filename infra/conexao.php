@@ -2,8 +2,8 @@
 
 $host = "localhost";
 $usuario = "root";
-$senha = "";
-$banco = "sistema_cadastro_pratos";
+$senha = "root";
+$banco = "CRUD_Ifood";
 
 $conexao = new mysqli($host, $usuario, $senha, $banco);
 
